@@ -1,0 +1,51 @@
+{
+  "name": "coupon_solid",
+  "kind": "solid",
+  "params": {
+    "name": "coupon_solid",
+    "length": 120.0,
+    "width": 25.0,
+    "height": 5.0,
+    "t_skin": 1.0,
+    "frame_width": 2.0,
+    "end_pad": 15.0,
+    "load_pad": 8.0,
+    "ridge_pitch": 5.0,
+    "ridge_width": 1.0,
+    "cross_pitch": 6.0,
+    "cross_width": 1.0,
+    "support_inset": 10.0,
+    "kind": "solid",
+    "envelope_volume_mm3": 15000.0,
+    "span_mm": 100.0,
+    "ridge_centers_mm": [],
+    "cross_centers_mm": []
+  },
+  "stl": "stl/coupon_solid.stl",
+  "mesh_volume_mm3": 15000.0,
+  "analytical_volume_mm3": 15000.0,
+  "volume_rel_error": 0.0,
+  "relative_density_envelope": 1.0,
+  "relative_density_lattice_region": 1.0,
+  "extents_mm": [
+    120.0,
+    25.0,
+    5.0
+  ],
+  "bounds_mm": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      120.0,
+      25.0,
+      5.0
+    ]
+  ],
+  "is_watertight": true,
+  "n_faces": 12,
+  "n_vertices": 8,
+  "fits_cool_plate": true
+}

@@ -1,0 +1,154 @@
+{
+  "disclaimer": "All FEA results are computational estimates, not physical test data.",
+  "voxel_h_mm": 0.5,
+  "results": [
+    {
+      "name": "coupon_solid",
+      "label": "computational estimate (linear-elastic voxel FEA, assumed isotropic PLA)",
+      "voxel_h_mm": 0.5,
+      "P_applied_N": 10.0,
+      "delta_midspan_mm": 0.2952225362035725,
+      "k_fea_N_per_mm": 33.87275283450732,
+      "cg_info": 0,
+      "solve_s": 15.665297269821167,
+      "total_s": 17.52674627304077,
+      "bc": {
+        "n_ux_sym": 561,
+        "n_uz_support": 51,
+        "n_load": 51,
+        "n_fixed_dof": 613,
+        "n_free_dof": 203030,
+        "P_half_N": 5.0,
+        "load_node_share_N": 0.09803921568627451
+      },
+      "mesh": {
+        "nx": 120,
+        "ny": 50,
+        "nz": 10,
+        "hx": 0.5,
+        "hy": 0.5,
+        "hz": 0.5,
+        "n_solid": 60000,
+        "n_vox_total": 60000,
+        "n_used_nodes": 67881,
+        "n_dof": 203643,
+        "assemble_s": 1.6986370086669922
+      },
+      "material": {
+        "E_MPa": 2700.0,
+        "nu": 0.33
+      }
+    },
+    {
+      "name": "coupon_lattice_low",
+      "label": "computational estimate (linear-elastic voxel FEA, assumed isotropic PLA)",
+      "voxel_h_mm": 0.5,
+      "P_applied_N": 10.0,
+      "delta_midspan_mm": 0.3421308524442927,
+      "k_fea_N_per_mm": 29.22858294876591,
+      "cg_info": 0,
+      "solve_s": 10.576755046844482,
+      "total_s": 11.778054237365723,
+      "bc": {
+        "n_ux_sym": 561,
+        "n_uz_support": 51,
+        "n_load": 51,
+        "n_fixed_dof": 613,
+        "n_free_dof": 171350,
+        "P_half_N": 5.0,
+        "load_node_share_N": 0.09803921568627451
+      },
+      "mesh": {
+        "nx": 120,
+        "ny": 50,
+        "nz": 10,
+        "hx": 0.5,
+        "hy": 0.5,
+        "hz": 0.5,
+        "n_solid": 44448,
+        "n_vox_total": 60000,
+        "n_used_nodes": 57321,
+        "n_dof": 171963,
+        "assemble_s": 1.073350191116333
+      },
+      "material": {
+        "E_MPa": 2700.0,
+        "nu": 0.33
+      }
+    },
+    {
+      "name": "coupon_lattice_mid",
+      "label": "computational estimate (linear-elastic voxel FEA, assumed isotropic PLA)",
+      "voxel_h_mm": 0.5,
+      "P_applied_N": 10.0,
+      "delta_midspan_mm": 0.3248773266979379,
+      "k_fea_N_per_mm": 30.780849195110893,
+      "cg_info": 0,
+      "solve_s": 14.181419134140015,
+      "total_s": 15.543370962142944,
+      "bc": {
+        "n_ux_sym": 561,
+        "n_uz_support": 51,
+        "n_load": 51,
+        "n_fixed_dof": 613,
+        "n_free_dof": 184130,
+        "P_half_N": 5.0,
+        "load_node_share_N": 0.09803921568627451
+      },
+      "mesh": {
+        "nx": 120,
+        "ny": 50,
+        "nz": 10,
+        "hx": 0.5,
+        "hy": 0.5,
+        "hz": 0.5,
+        "n_solid": 49392,
+        "n_vox_total": 60000,
+        "n_used_nodes": 61581,
+        "n_dof": 184743,
+        "assemble_s": 1.22609543800354
+      },
+      "material": {
+        "E_MPa": 2700.0,
+        "nu": 0.33
+      }
+    },
+    {
+      "name": "coupon_lattice_high",
+      "label": "computational estimate (linear-elastic voxel FEA, assumed isotropic PLA)",
+      "voxel_h_mm": 0.5,
+      "P_applied_N": 10.0,
+      "delta_midspan_mm": 0.32022282356686405,
+      "k_fea_N_per_mm": 31.228255027586915,
+      "cg_info": 0,
+      "solve_s": 13.857197523117065,
+      "total_s": 15.310874938964844,
+      "bc": {
+        "n_ux_sym": 561,
+        "n_uz_support": 51,
+        "n_load": 51,
+        "n_fixed_dof": 613,
+        "n_free_dof": 189800,
+        "P_half_N": 5.0,
+        "load_node_share_N": 0.09803921568627451
+      },
+      "mesh": {
+        "nx": 120,
+        "ny": 50,
+        "nz": 10,
+        "hx": 0.5,
+        "hy": 0.5,
+        "hz": 0.5,
+        "n_solid": 52200,
+        "n_vox_total": 60000,
+        "n_used_nodes": 63471,
+        "n_dof": 190413,
+        "assemble_s": 1.3096323013305664
+      },
+      "material": {
+        "E_MPa": 2700.0,
+        "nu": 0.33
+      }
+    }
+  ]
+}

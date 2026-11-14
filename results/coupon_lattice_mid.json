@@ -1,0 +1,71 @@
+{
+  "name": "coupon_lattice_mid",
+  "kind": "lattice",
+  "params": {
+    "name": "coupon_lattice_mid",
+    "length": 120.0,
+    "width": 25.0,
+    "height": 5.0,
+    "t_skin": 1.0,
+    "frame_width": 2.0,
+    "end_pad": 15.0,
+    "load_pad": 8.0,
+    "ridge_pitch": 5.0,
+    "ridge_width": 1.6,
+    "cross_pitch": 6.0,
+    "cross_width": 1.4,
+    "support_inset": 10.0,
+    "kind": "lattice",
+    "envelope_volume_mm3": 15000.0,
+    "span_mm": 100.0,
+    "ridge_centers_mm": [
+      4.999999999999998,
+      9.999999999999998,
+      14.999999999999998,
+      20.0
+    ],
+    "cross_centers_mm": [
+      18.0,
+      24.0,
+      30.0,
+      36.0,
+      42.0,
+      48.0,
+      54.0,
+      66.0,
+      72.0,
+      78.0,
+      84.0,
+      90.0,
+      96.0,
+      102.0
+    ]
+  },
+  "stl": "stl/coupon_lattice_mid.stl",
+  "mesh_volume_mm3": 12266.878525085413,
+  "analytical_volume_mm3": 12266.880000000001,
+  "volume_rel_error": -1.2023551126861193e-07,
+  "relative_density_envelope": 0.8177920000000001,
+  "relative_density_lattice_region": 0.7333541463414636,
+  "extents_mm": [
+    120.0,
+    25.0,
+    5.0
+  ],
+  "bounds_mm": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      120.0,
+      25.0,
+      5.0
+    ]
+  ],
+  "is_watertight": true,
+  "n_faces": 972,
+  "n_vertices": 648,
+  "fits_cool_plate": true
+}

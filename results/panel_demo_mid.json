@@ -1,0 +1,90 @@
+{
+  "name": "panel_demo_mid",
+  "kind": "lattice",
+  "params": {
+    "name": "panel_demo_mid",
+    "length": 100.0,
+    "width": 100.0,
+    "height": 5.0,
+    "t_skin": 1.0,
+    "frame_width": 2.5,
+    "end_pad": 2.5,
+    "load_pad": 0.0,
+    "ridge_pitch": 5.0,
+    "ridge_width": 1.6,
+    "cross_pitch": 5.0,
+    "cross_width": 1.4,
+    "support_inset": 0.0,
+    "kind": "lattice",
+    "envelope_volume_mm3": 50000.0,
+    "span_mm": 100.0,
+    "ridge_centers_mm": [
+      5.000000000000005,
+      10.000000000000005,
+      15.000000000000005,
+      20.000000000000007,
+      25.000000000000007,
+      30.000000000000007,
+      35.00000000000001,
+      40.00000000000001,
+      45.00000000000001,
+      50.00000000000001,
+      55.00000000000001,
+      60.00000000000001,
+      65.0,
+      70.0,
+      75.0,
+      80.0,
+      85.0,
+      90.0,
+      95.0
+    ],
+    "cross_centers_mm": [
+      5.0,
+      10.0,
+      15.0,
+      20.0,
+      25.0,
+      30.0,
+      35.0,
+      40.0,
+      45.0,
+      55.0,
+      60.0,
+      65.0,
+      70.0,
+      75.0,
+      80.0,
+      85.0,
+      90.0,
+      95.0
+    ]
+  },
+  "stl": "stl/panel_demo_mid.stl",
+  "mesh_volume_mm3": 36472.760174410825,
+  "analytical_volume_mm3": 36472.76,
+  "volume_rel_error": 4.781947488819882e-09,
+  "relative_density_envelope": 0.7294552000000001,
+  "relative_density_lattice_region": 0.7152160000000001,
+  "extents_mm": [
+    100.0,
+    100.0,
+    5.0
+  ],
+  "bounds_mm": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      100.0,
+      100.0,
+      5.0
+    ]
+  ],
+  "is_watertight": true,
+  "n_faces": 4572,
+  "n_vertices": 3048,
+  "fits_cool_plate": true
+}
